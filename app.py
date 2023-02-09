@@ -9,7 +9,7 @@ st.write("This app will generate headlines based on text with limits on number o
 
 def generate(text, num_chars, num_words):
 
-    openai.api_key = "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"
+    openai.api_key = "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"
     query = f"Generate a news headline that will attract users attention strict to maximum of {num_chars} characters and {num_words} words without : based on the context of the following text. Don't hallicunate."
 
     response = openai.Completion.create(
